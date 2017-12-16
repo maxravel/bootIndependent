@@ -1,0 +1,196 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+.header{
+    background:url(../img/earth.jpg);
+    background-size:cover;
+    background-position:center;
+    height:120vh;
+    padding-top:0px;
+    padding-left:0px;
+    background-attachment: fixed;
+    /* z-index:-1; */
+    /* position:relative; */
+}
+
+.header h1{
+    text-align:center;
+    color:white;
+    font-size:8vw;
+    /* font-family: 'Merriweather Sans', sans-serif; */
+    /* font-family: 'Bitter', serif; */
+    padding-top:35vh;
+    font-family: 'Audiowide', cursive;
+    /* position:fixed; */
+    z-index:1;
+}
+
+h2{
+    text-align:center;
+    color:white;
+    font-size:6vw;
+    /* font-family: 'Merriweather Sans', sans-serif; */
+    /* font-family: 'Bitter', serif; */
+    padding-top:7vh;
+    font-family: 'Audiowide', cursive;
+    /* position:fixed; */
+    z-index:1;
+}
+
+ul li{
+    display:inline;
+    color:white;
+    padding-top:0px; 
+    list-style: none;
+    font-weight:bold;
+    padding-right:3px;
+    padding-bottom:3px;    
+    padding-left:3px;
+    border: solid 1px transparent;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+ul li:hover{
+    border: solid 1px white;
+}
+
+.nav {
+    height: 70px;
+    background: transparent; 
+    display: block; 
+    position: fixed; 
+    float:right;
+    width: 100%;
+    z-index: 99999;
+    transition: all ease .5s;
+    text-align:right;
+    padding:20px;
+    font-size:15px;
+    margin:0px;
+}
+
+.nav.change {
+    height:50px;
+    background: rgba(0, 0, 0, 0.5);
+    transition: all ease .5s;
+    font-size:14px;
+    padding:10px;
+}
+
+.nav.change:hover{
+    height: 70px;
+    background: transparent; 
+    display: block; 
+    position: fixed; 
+    float:right;
+    width: 100%;
+    z-index: 99999;
+    transition: all ease .5s;
+    text-align:right;
+    padding:20px;
+    font-size:15px;
+    margin:0px;
+}
+  
+#technology{
+    background-color: black;
+    /* height:120vh; */
+    z-index:9999;
+}
+
+.tech{
+    padding-top:10vh;
+    padding-bottom:15vh;
+}
+
+.col-sm{
+    height:55vh;
+    background-color: #999;
+    margin:3vh;
+    border: 2px black solid; 
+}
+
+.first{
+    background: url(../img/satelita.jpg);
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center;
+    color:white;
+    font-weight:bold;
+    font-size:2.3vh;
+}
+
+.second p{
+    padding:2vh;
+    font-weight:bold;
+}
+
+.third{
+    background: url(../img/project.jpg);
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center;
+    color:white;
+    font-weight:bold;
+    font-size:2.3vh;
+}
+
+#future{
+    background: url(../img/colony.jpg);
+    height:120vh;
+    background-attachment: fixed;
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
+}
+
+#future h3{
+    font-size:6vw;
+    width:100%;
+    text-transform: uppercase;
+    padding-top:5vh;
+    padding-left:2vh;
+}
+#future h4{
+    font-size:3vw;
+    width:100%;
+    text-transform: uppercase;
+    padding-top:2vh;
+    padding-left:2vh;
+}
+
+/* #environment{
+    background-color: black;
+    height:120vh;
+} */
+
+#joinUs{
+    background-color: black;
+    height:95vh;
+}
+
+form{
+    padding-top:8vh;
+    width: 70%;
+    margin: auto;
+}
+
+form label{
+    color:white;
+    font-weight: bold;
+}
+
+
+footer{
+    text-align:center;
+    font-family: 'Audiowide', cursive;
+    height:5vh;
+    font-size:2.6vh;
+    background-color:white;
+    color:black;
+}
