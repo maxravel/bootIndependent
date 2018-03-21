@@ -48,7 +48,7 @@ ul li{
     padding-right:3px;
     padding-bottom:3px;    
     padding-left:3px;
-    border: solid 1px transparent;
+    border: solid 2px transparent;
     /* background-color:black; */
 }
 
@@ -57,9 +57,15 @@ a:hover{
 }
 
 ul li:hover{
-    border: solid 1px white;
-    
+    border: solid 2px white;   
 }
+
+/* .onto{
+    padding-bottom:3px;    
+    border: dotted 1px white;
+    color:yellow;
+    font-weight: bold; 
+} */
 
 .nav {
     height: 70px;
@@ -67,13 +73,11 @@ ul li:hover{
     display: block; 
     position: fixed; 
     float:right;
-    width: 100%;
+    width: 100vw;
     z-index: 99999;
     transition: all ease .5s;
     text-align:right;
-    padding:20px;
     font-size:15px;
-    margin:0px;
 }
 
 .nav.change {
@@ -81,7 +85,6 @@ ul li:hover{
     background: rgba(0, 0, 0, 0.5);
     transition: all ease .5s;
     font-size:14px;
-    padding:10px;
 }
 
 .nav.change:hover{
@@ -94,9 +97,7 @@ ul li:hover{
     z-index: 99999;
     transition: all ease .5s;
     text-align:right;
-    padding:20px;
     font-size:15px;
-    margin:0px;
 }
   
 
@@ -191,6 +192,8 @@ ul li:hover{
     height:120vh;
 } */
 
+
+
 #joinUs{
     background-color: black;
     height:95vh;
@@ -214,7 +217,7 @@ footer{
     align-items: center;
     font-family: 'Audiowide', cursive;
     height:5vh;
-    font-size:2.6vh;
+    font-size:1.8vw;
     background-color:white;
     color:black;
 }
