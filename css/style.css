@@ -8,8 +8,8 @@
     background-size:cover;
     background-position:center;
     height:120vh;
-    padding-top:0px;
-    padding-left:0px;
+    /* padding-top:0px;
+    padding-left:0px; */
     background-attachment: fixed;
     /* z-index:-1; */
     /* position:relative; */
@@ -45,9 +45,9 @@ ul li{
     padding-top:0px; 
     list-style: none;
     font-weight:bold;
-    padding-right:3px;
+    /* padding-right:3px;
     padding-bottom:3px;    
-    padding-left:3px;
+    padding-left:3px; */
     border: solid 2px transparent;
     /* background-color:black; */
 }
@@ -70,13 +70,14 @@ ul li:hover{
 .nav {
     height: 70px;
     background: transparent; 
-    display: block; 
     position: fixed; 
-    float:right;
-    width: 100vw;
+    /* float: right; */
+    display:flex;
+    flex-direction: row-reverse;
+    width: 100%;
     z-index: 99999;
     transition: all ease .5s;
-    text-align:right;
+    /* text-align:right; */
     font-size:15px;
 }
 
@@ -89,14 +90,14 @@ ul li:hover{
 
 .nav.change:hover{
     height: 70px;
-    background: transparent; 
-    display: block; 
+    background: transparent;  
     position: fixed; 
-    float:right;
+    display:flex;
+    flex-direction: row-reverse;
     width: 100%;
     z-index: 99999;
     transition: all ease .5s;
-    text-align:right;
+    /* text-align:right; */
     font-size:15px;
 }
   
