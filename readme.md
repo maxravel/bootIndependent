@@ -1,4 +1,4 @@
 # Landing page with menu animations and parallax effect. 
 
-do environment section with slider;  
+do environment section with slider; working on;  
 do hamburger menu;  

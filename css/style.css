@@ -40,9 +40,9 @@ h2{
 }
 
 ul li{
-    position:relative;
+    /* position:relative;
     top:10px;
-    right:10px;
+    right:10px; */
     display:inline;    
     color:white;
     /* padding-top:0px;  */
@@ -51,11 +51,12 @@ ul li{
     padding-right: 4px;
     padding-bottom: 4px;    
     padding-left: 4px;
-    border: solid 2px transparent;
+    /* border: solid 2px transparent; */
     /* background-color:black; */
     margin:5px 5px 5px 5px;
     align-items: center;
     justify-content: center;
+    border: solid 2px rgba(255, 255, 255, 0);
 }
 
 a:hover{
@@ -66,12 +67,29 @@ ul li:hover{
     border: solid 2px white;   
 }
 
-/* .onto{
-    padding-bottom:3px;    
+.onto{
+    /* position:relative;
+    top:10px;
+    right:10px; */
+    display:inline;    
+    color:white;
+    /* padding-top:0px;  */
+    list-style: none;
+    font-weight:bold;
+    /* padding-right: 4px; */
+    padding-bottom: 4px;    
+    /* padding-left: 4px; */
+    /* border: solid 2px transparent; */
+    /* background-color:black; */
+    margin:5px 5px 5px 5px;
+    align-items: center;
+    justify-content: center;
+    /* padding-bottom:3px;    
     border: dotted 1px white;
     color:yellow;
-    font-weight: bold; 
-} */
+    font-weight: bold;  */
+    border: solid 2px white;
+}
 
 .nav {
     height: 70px;
