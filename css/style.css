@@ -8,11 +8,7 @@
     background-size:cover;
     background-position:center;
     height:120vh;
-    /* padding-top:0px;
-    padding-left:0px; */
     background-attachment: fixed;
-    /* z-index:-1; */
-    /* position:relative; */
 }
 
 .header h1{
@@ -23,7 +19,6 @@
     /* font-family: 'Bitter', serif; */
     padding-top:35vh;
     font-family: 'Audiowide', cursive;
-    /* position:fixed; */
     z-index:1;
 }
 
@@ -35,27 +30,17 @@ h2{
     /* font-family: 'Bitter', serif; */
     padding-top:7vh;
     font-family: 'Audiowide', cursive;
-    /* position:fixed; */
     z-index:1;
 }
 
 ul li{
-    /* position:relative;
-    top:10px;
-    right:10px; */
     display:inline;    
     color:white;
-    /* padding-top:0px;  */
     list-style: none;
     font-weight:bold;
     padding-right: 4px;
     padding-bottom: 4px;    
     padding-left: 4px;
-    /* border: solid 2px transparent; */
-    /* background-color:black; */
-    margin:5px 5px 5px 5px;
-    align-items: center;
-    justify-content: center;
     border: solid 2px rgba(255, 255, 255, 0);
 }
 
@@ -68,85 +53,54 @@ ul li:hover{
 }
 
 .onto{
-    /* position:relative;
-    top:10px;
-    right:10px; */
-    display:inline;    
-    color:white;
-    /* padding-top:0px;  */
-    list-style: none;
-    font-weight:bold;
-    /* padding-right: 4px; */
     padding-bottom: 4px;    
-    /* padding-left: 4px; */
-    /* border: solid 2px transparent; */
-    /* background-color:black; */
-    margin:5px 5px 5px 5px;
-    align-items: center;
-    justify-content: center;
-    /* padding-bottom:3px;    
-    border: dotted 1px white;
-    color:yellow;
-    font-weight: bold;  */
-    border: solid 2px white;
+    border-bottom: solid 2px white;
 }
 
 .nav {
     height: 70px;
     background: transparent; 
     position: fixed; 
-    /* float: right; */
     display:flex;
     flex-direction: row-reverse;
     align-items: center;
     width: 100%;
-    /* z-index: 99999; */
     transition: all ease .5s;
-    /* text-align:right; */
     font-size:16px;
+    padding-right: 10px;
 }
 
 .nav.change {
-    height:50px;
+    height: 50px;
     background: rgba(0, 0, 0, 0.5);
     transition: all ease .5s;
-    font-size:14px;
-    /* display:flex;
-    flex-direction: row-reverse;
-    align-items: center; */
-    /* padding-top:10px; */
+    font-size: 14px;
 }
 
 .nav.change:hover{
-
     height: 70px;
     background: transparent; 
     position: fixed; 
-    /* float: right; */
     display:flex;
     flex-direction: row-reverse;
     align-items: center;
     width: 100%;
-    /* z-index: 99999; */
     transition: all ease .5s;
-    /* text-align:right; */
     font-size:16px;
-    
- 
+    padding-right: 10px;
 }
   
 
 
 #technology{
     background-color: black;
-    /* height:120vh; */
     z-index:9999;
 }
 
 .tech{
     padding-top:10vh;
     padding-bottom:15vh;
-    width:100vw;
+    width:95vw;
 }
 
 /* .col-sm{
@@ -159,7 +113,7 @@ ul li:hover{
 .threeParts{
     display:flex;
     flex-wrap:wrap;
-    width:100%;
+    width:95%;
     justify-content: space-around;
 }
 
@@ -246,7 +200,6 @@ form label{
 }
 
 footer{
-    /* text-align:center; */
     display:flex;
     justify-content: center;
     align-items: center;
